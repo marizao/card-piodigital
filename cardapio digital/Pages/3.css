@@ -1,0 +1,136 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 2em;
+    content: fixed;
+}
+
+#txtBusca {
+    opacity: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+#divConta {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#divLogo {
+    display: flex;
+    justify-content: center
+}
+
+#conta {
+    font-size: small;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#ordenar {
+    display:grid;
+    padding-left: 3em;
+    width: 25%;
+    flex-direction: row;
+    max-height: 500px ;
+}
+
+#h2 {
+    font-size: xx-large;
+    padding-bottom: 1em;
+}
+
+#opcoes {
+    font-size: small;
+    text-shadow: 2em;
+    text-decoration: underline;
+    color: black;
+}
+
+section p {
+    font-size: medium;
+    padding-bottom: 1em;
+    color: black;
+}
+
+aside {
+    width: 70%;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5em;
+    color: black;
+}
+
+#redes i {
+    font-size: 4em;
+    color: black;
+    padding-right: 0.3em;
+}
+
+hr {
+    margin: 40px 0;
+    width: 90%;
+}
+
+#cardapio {
+    display: flex;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+#menu p {
+    color: red;
+    font-style: bold;
+}
+
+#tudo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#item {
+    flex-basis: 33%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#item img {
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px;
+}
+
+#pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#pages h6 {
+    font-size: 1em;
+    padding: 0.1em 0.2em 0.1em 0.2em;
+    border: 0.05em solid #c0c0c0;
+}
+
+#pages i {
+    padding: 0.2em;
+}
